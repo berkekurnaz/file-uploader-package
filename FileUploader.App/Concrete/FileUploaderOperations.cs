@@ -11,7 +11,13 @@ namespace FileUploader.App.Concrete
     public class FileUploaderOperations : IFileUploader
     {
 
-        /* Yeni Bir Dosya Yukleme */
+        /// <summary>
+        ///  Upload a new file
+        /// </summary>
+        /// <param name="uploadFile">The file you want to upload</param>
+        /// <param name="uploadFileName">The name you want to give to the file you want to upload</param>
+        /// <param name="folderName">The folder where you want to upload the file</param>
+        /// <returns></returns>
         public static async Task<bool> UploadFile(IFormFile uploadFile, string uploadFileName, string folderName)
         {
             bool isCompleted = false;
@@ -35,7 +41,14 @@ namespace FileUploader.App.Concrete
         }
 
 
-        /* Var Olan Bir Dosya Guncelleme */
+        /// <summary>
+        /// Update a file by file name
+        /// </summary>
+        /// <param name="uploadFile">The file you want to upload</param>
+        /// <param name="uploadFileName">The name you want to give to the file you want to upload</param>
+        /// <param name="folderName">The folder where you want to upload the file</param>
+        /// <param name="updatedFileName">Name of the image that will be updated</param>
+        /// <returns></returns>
         public static async Task<bool> UpdateFile(IFormFile uploadFile, string uploadFileName, string folderName, string updatedFileName)
         {
             bool isCompleted = false;
@@ -63,7 +76,12 @@ namespace FileUploader.App.Concrete
             return isCompleted;
         }
 
-        /* Var Olan Bir Dosya Silme */
+        /// <summary>
+        /// Delete a file by file name
+        /// </summary>
+        /// <param name="uploadFileName">The name you want to give to the file you want to delete</param>
+        /// <param name="folderName">The folder where you want to upload the file</param>
+        /// <returns></returns>
         public static async Task<bool> DeleteFile(string deletedFileName, string folderName)
         {
             if (File.Exists(Directory.GetCurrentDirectory() + "\\wwwroot\\" + folderName + "\\" + deletedFileName))
