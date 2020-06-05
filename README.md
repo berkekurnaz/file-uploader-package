@@ -1,11 +1,11 @@
 # File Uploader Package
 File uploader package for .net core apps. You can do file upload, file update and file delete operations using this package. <br/>
 It greatly simplifies jobs and file-related jobs are simplified. 
-You can find examples below. Also [click for example](https://github.com/berkekurnaz/file-uploader-package) .net core application.
+You can find examples below. Also [click for example](https://github.com/berkekurnaz/file-uploader-package/tree/master/FileUploader.Test) .net core application.
 
-> **Nuget :** http://www.berkekurnaz.com/ <br/>
+> **Nuget :** https://www.nuget.org/packages/File_Uploader <br/>
 
-> **Tutorial (Engslih) :** Coming Soon...
+> **Tutorial (English) :** Coming Soon...
 
 > **Tutorial (Turkish) :** Coming Soon...
 
@@ -14,7 +14,7 @@ You can find examples below. Also [click for example](https://github.com/berkeku
 ## Installation
 - Download this package to your project.
 ```bash
-git clone https://github.com/berkekurnaz/file-uploader-package.git
+Install-Package File_Uploader -Version 1.0.0
 ```
 
 ## How to use this package ?

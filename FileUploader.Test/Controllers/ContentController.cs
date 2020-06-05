@@ -9,11 +9,13 @@ namespace FileUploader.Test.Controllers
     public class ContentController : Controller
     {
 
+        /* About Page */
         public IActionResult About()
         {
             return View();
         }
 
+        /* Developers Page */
         public IActionResult Developers()
         {
             return View();
