@@ -1,0 +1,9 @@
+C:\Users\Berke\source\repos\FileUploader\FileUploader.App\bin\Debug\netcoreapp2.0\FileUploader.App.deps.json
+C:\Users\Berke\source\repos\FileUploader\FileUploader.App\bin\Debug\netcoreapp2.0\FileUploader.App.dll
+C:\Users\Berke\source\repos\FileUploader\FileUploader.App\obj\Debug\netcoreapp2.0\FileUploader.App.csprojAssemblyReference.cache
+C:\Users\Berke\source\repos\FileUploader\FileUploader.App\obj\Debug\netcoreapp2.0\FileUploader.App.csproj.CoreCompileInputs.cache
+C:\Users\Berke\source\repos\FileUploader\FileUploader.App\obj\Debug\netcoreapp2.0\FileUploader.App.AssemblyInfoInputs.cache
+C:\Users\Berke\source\repos\FileUploader\FileUploader.App\obj\Debug\netcoreapp2.0\FileUploader.App.AssemblyInfo.cs
+C:\Users\Berke\source\repos\FileUploader\FileUploader.App\bin\Debug\netcoreapp2.0\FileUploader.App.pdb
+C:\Users\Berke\source\repos\FileUploader\FileUploader.App\obj\Debug\netcoreapp2.0\FileUploader.App.dll
+C:\Users\Berke\source\repos\FileUploader\FileUploader.App\obj\Debug\netcoreapp2.0\FileUploader.App.pdb

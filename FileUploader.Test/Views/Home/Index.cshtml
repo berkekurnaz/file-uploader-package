@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <br />
+    @if (TempData["MsgResult"] != null)
+    {
+        <div class="alert alert-success">@TempData["MsgResult"]</div>
+    }
+</div>
+
+<div class="container">
+    <h1>Upload New File</h1>
+    <form asp-controller="Home" asp-action="FormUpload" method="post" enctype="multipart/form-data">
+
+        <div class="input-group col-md-8 mx-auto">
+            <label>Select a file</label>
+            <input class="form-control" type="file" name="uploadFile" required />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Upload File</button>
+    </form>
+    <hr />
+</div>
+
+<div class="container">
+    <h1>Update file by file name</h1>
+    <form asp-controller="Home" asp-action="FormUpdate" method="post" enctype="multipart/form-data">
+
+        <div class="input-group col-md-8 mx-auto">
+            <label>File Name</label>
+            <input class="form-control" type="text" id="fileName" name="fileName" required />
+        </div>
+
+        <div class="input-group col-md-8 mx-auto">
+            <label>New File</label>
+            <input class="form-control" type="file" name="uploadFile" required />
+        </div>
+
+        <button type="submit" class="btn btn-success">Update File</button>
+    </form>
+    <hr />
+</div>
+
+<div class="container">
+    <h1>Delete file by file name</h1>
+    <form asp-controller="Home" asp-action="FormDelete" method="post" enctype="multipart/form-data">
+
+        <div class="input-group col-md-8 mx-auto">
+            <label>File Name</label>
+            <input class="form-control" type="text" id="fileName" name="fileName" required />
+        </div>
+
+        <button type="submit" class="btn btn-danger">Delete File</button>
+    </form>
+    <hr />
+</div>

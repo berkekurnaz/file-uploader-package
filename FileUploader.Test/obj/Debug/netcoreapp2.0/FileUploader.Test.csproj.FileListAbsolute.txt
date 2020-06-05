@@ -1,0 +1,14 @@
+C:\Users\Berke\source\repos\FileUploader\FileUploader.Test\bin\Debug\netcoreapp2.0\FileUploader.Test.deps.json
+C:\Users\Berke\source\repos\FileUploader\FileUploader.Test\bin\Debug\netcoreapp2.0\FileUploader.Test.runtimeconfig.json
+C:\Users\Berke\source\repos\FileUploader\FileUploader.Test\bin\Debug\netcoreapp2.0\FileUploader.Test.runtimeconfig.dev.json
+C:\Users\Berke\source\repos\FileUploader\FileUploader.Test\bin\Debug\netcoreapp2.0\FileUploader.Test.dll
+C:\Users\Berke\source\repos\FileUploader\FileUploader.Test\bin\Debug\netcoreapp2.0\FileUploader.Test.pdb
+C:\Users\Berke\source\repos\FileUploader\FileUploader.Test\obj\Debug\netcoreapp2.0\FileUploader.Test.csprojAssemblyReference.cache
+C:\Users\Berke\source\repos\FileUploader\FileUploader.Test\obj\Debug\netcoreapp2.0\FileUploader.Test.csproj.CoreCompileInputs.cache
+C:\Users\Berke\source\repos\FileUploader\FileUploader.Test\obj\Debug\netcoreapp2.0\FileUploader.Test.AssemblyInfoInputs.cache
+C:\Users\Berke\source\repos\FileUploader\FileUploader.Test\obj\Debug\netcoreapp2.0\FileUploader.Test.AssemblyInfo.cs
+C:\Users\Berke\source\repos\FileUploader\FileUploader.Test\obj\Debug\netcoreapp2.0\FileUploader.Test.dll
+C:\Users\Berke\source\repos\FileUploader\FileUploader.Test\obj\Debug\netcoreapp2.0\FileUploader.Test.pdb
+C:\Users\Berke\source\repos\FileUploader\FileUploader.Test\bin\Debug\netcoreapp2.0\FileUploader.App.dll
+C:\Users\Berke\source\repos\FileUploader\FileUploader.Test\bin\Debug\netcoreapp2.0\FileUploader.App.pdb
+C:\Users\Berke\source\repos\FileUploader\FileUploader.Test\obj\Debug\netcoreapp2.0\FileUploader.Test.csproj.CopyComplete
