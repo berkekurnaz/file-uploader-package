@@ -11,6 +11,7 @@ namespace FileUploader.Test.Controllers
 {
     public class HomeController : Controller
     {
+        /* This operations render a index */
         public IActionResult Index()
         {
             return View();
